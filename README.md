@@ -19,6 +19,9 @@ CVECrawler 是一款基于Scrapy框架的NVD（国家漏洞数据库）数据采
 
 # 2.2 首次运行
 ```shell
+# 安装项目相关依赖
+pip install -r requirements.txt
+
 # 启用UTF-8编码
 $env:PYTHONUTF8=1     # Windows系统
 export PYTHONUTF8=1   # Linux系统
